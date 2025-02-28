@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HiAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".dialog_custom"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
